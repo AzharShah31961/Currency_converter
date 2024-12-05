@@ -1,0 +1,35 @@
+name: currency
+description: "A new Flutter project."
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  cloud_firestore: ^5.5.0
+  firebase_core: ^3.8.0
+  firebase_auth: ^5.3.3
+  shared_preferences: ^2.3.3
+  http: ^1.2.2
+  dropdown_search: ^6.0.1
+  
+  # Firebase dependencies
+
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/logo.png
+
+
